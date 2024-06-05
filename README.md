@@ -1,4 +1,4 @@
-print('the hub of all retardware scripts') <br>
+print("the hub of all retardware scripts") <br>
 -- our discord: https://discord.com/invite/55kbQtFHSx <br>
 -- developers: @evil.exe_main and @eth.ussr on discord <br>
 -- inspired by @eldmonstret (on discord)'s wonderful script eclipse.lol <br>
