@@ -7,7 +7,7 @@ local GameId = game.GameId
 --rest
 if GameId == 286090429 then
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/RETARDWAR3/retardware-main/main/Arsenal.lua')))()
-elseif GameId == 10975855395 then
+elseif GameId == 10975855395 or 11229187850 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RETARDWAR3/retardware-main/main/Korrupt-Zombies.lua"))()
 elseif GameId == 13924946576 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RETARDWAR3/retardware-main/main/Dingus.lua"))()
