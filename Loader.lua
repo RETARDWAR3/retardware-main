@@ -2,12 +2,12 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
 --locals
-local GameId = game.GameId
+local GameId = game.PlaceId
 
 --rest
 if GameId == 286090429 then
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/RETARDWAR3/retardware-main/main/Arsenal.lua')))()
-elseif GameId == 10975855395 or 11229187850 then
+elseif GameId == 11229187850 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RETARDWAR3/retardware-main/main/Korrupt-Zombies.lua"))()
 elseif GameId == 13924946576 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RETARDWAR3/retardware-main/main/Dingus.lua"))()
