@@ -4,7 +4,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 --locals
 local GameId = game.PlaceId
 
---rest
+--// Supported
 if GameId == 286090429 then
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/RETARDWAR3/retardware-main/main/Arsenal.lua')))()
 elseif GameId == 11229187850 then
@@ -21,27 +21,16 @@ elseif GameId == 16426795556 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RETARDWAR3/retardware-main/main/Trackandfield.lua"))()
 elseif GameId == 17522137633 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RETARDWAR3/retardware-main/main/getoffmyisland.lua"))()
-elseif GameId == 12196278347 then
+--// WIP
+elseif GameId == 12196278347 or 2317712696 or 606849621 then
+    setclipboard("https://discord.gg/55kbQtFHSx")
     OrionLib:MakeNotification({
         Name = "Not supported yet!",
-        Content = "We're working on it!",
+        Content = "We're working on it! discord link coppied to clipboard!",
         Image = "rbxassetid://4483345998",
         Time = 5
     })
-elseif GameId == 2317712696 then
-    OrionLib:MakeNotification({
-        Name = "Not supported yet!",
-        Content = "We're working on it!",
-        Image = "rbxassetid://4483345998",
-        Time = 5
-    })
-elseif GameId == 606849621 then
-    OrionLib:MakeNotification({
-        Name = "Not supported yet!",
-        Content = "We're working on it!",
-        Image = "rbxassetid://4483345998",
-        Time = 5
-    })
+--// Not known by us
 else
     setclipboard("https://discord.gg/55kbQtFHSx")
     OrionLib:MakeNotification({
