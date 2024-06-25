@@ -3,6 +3,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 
 --locals
 local GameId = game.PlaceId
+local GameID = game.GameId
 
 --// Supported
 if GameId == 286090429 then
@@ -21,6 +22,15 @@ elseif GameId == 16426795556 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RETARDWAR3/retardware-main/main/Trackandfield.lua"))()
 elseif GameId == 17522137633 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RETARDWAR3/retardware-main/main/getoffmyisland.lua"))()
+elseif GameID == 113491250 or 115272207 or 1168263273 then
+    setclipboard("https://discord.gg/5BvhKNBUTc")
+    OrionLib:MakeNotification({
+        Name = "Not our script",
+        Content = "Full credit goes to the legend dementia enjoyer on discord, invite link to server coppied to clipboard",
+        Image = "rbxassetid://4483345998",
+        Time = 10
+    })
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/dementiaenjoyer/homohack/main/loader.lua"))()
 --// WIP
 elseif GameId == 12196278347 or 2317712696 or 606849621 then
     setclipboard("https://discord.gg/55kbQtFHSx")
