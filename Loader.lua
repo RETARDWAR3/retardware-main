@@ -22,6 +22,8 @@ elseif GameId == 16426795556 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RETARDWAR3/retardware-main/main/Trackandfield.lua"))()
 elseif GameId == 17522137633 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RETARDWAR3/retardware-main/main/getoffmyisland.lua"))()
+elseif GameId == 606849621 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RETARDWAR3/retardware-main/main/Jailbreak.lua"))()
 elseif GameID == 113491250 or 115272207 or 1168263273 then
     setclipboard("https://discord.gg/5BvhKNBUTc")
     OrionLib:MakeNotification({
@@ -32,7 +34,7 @@ elseif GameID == 113491250 or 115272207 or 1168263273 then
     })
     loadstring(game:HttpGet("https://raw.githubusercontent.com/dementiaenjoyer/homohack/main/loader.lua"))()
 --// WIP
-elseif GameId == 12196278347 or 2317712696 or 606849621 then
+elseif GameId == 12196278347 or 2317712696 then
     setclipboard("https://discord.gg/55kbQtFHSx")
     OrionLib:MakeNotification({
         Name = "Not supported yet!",
