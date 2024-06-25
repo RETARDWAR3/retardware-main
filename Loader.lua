@@ -26,7 +26,7 @@ elseif GameID == 113491250 or 115272207 or 1168263273 then
     setclipboard("https://discord.gg/5BvhKNBUTc")
     OrionLib:MakeNotification({
         Name = "Not our script",
-        Content = "Full credit goes to the legend dementia enjoyer on discord, invite link to server coppied to clipboard",
+        Content = "Full credit goes to the legend dementia enjoyer on discord, invite link to server copied to clipboard",
         Image = "rbxassetid://4483345998",
         Time = 10
     })
