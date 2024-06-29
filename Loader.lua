@@ -24,6 +24,9 @@ elseif GameId == 17522137633 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RETARDWAR3/retardware-main/main/getoffmyisland.lua"))()
 elseif GameId == 606849621 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RETARDWAR3/retardware-main/main/Jailbreak.lua"))()
+elseif GameId == 2317712696 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RETARDWAR3/retardware-main/main/The-Wild-West.lua"))()
+--// Eclipse/Homohack
 elseif GameID == 113491250 or 115272207 or 1168263273 then
     setclipboard("https://discord.gg/5BvhKNBUTc")
     OrionLib:MakeNotification({
