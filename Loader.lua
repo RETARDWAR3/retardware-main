@@ -16,6 +16,8 @@ elseif GameId == 13822889 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RETARDWAR3/retardware-main/main/LT2.lua"))()
 elseif GameId == 8726743209 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RETARDWAR3/retardware-main/main/Refinery-caves.lua"))()
+elseif GameId == 12196278347 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RETARDWAR3/retardware-main/main/Refinery-Caves-2.lua"))()
 elseif GameId == 17121106661 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RETARDWAR3/retardware-main/main/Scream-Stream.lua"))()
 elseif GameId == 16426795556 then
@@ -36,8 +38,9 @@ elseif GameID == 113491250 or 115272207 or 1168263273 then
         Time = 10
     })
     loadstring(game:HttpGet("https://raw.githubusercontent.com/dementiaenjoyer/homohack/main/loader.lua"))()
+--[[
 --// WIP
-elseif GameId == 12196278347 or 2317712696 then
+elseif GameId == --eh then
     setclipboard("https://discord.gg/55kbQtFHSx")
     OrionLib:MakeNotification({
         Name = "Not supported yet!",
@@ -45,6 +48,7 @@ elseif GameId == 12196278347 or 2317712696 then
         Image = "rbxassetid://4483345998",
         Time = 5
     })
+]]
 --// Not known by us
 else
     setclipboard("https://discord.gg/55kbQtFHSx")
