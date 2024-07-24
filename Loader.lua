@@ -16,6 +16,8 @@ elseif GameId == 13822889 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RETARDWAR3/retardware-main/main/LT2.lua"))()
 elseif GameId == 8726743209 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RETARDWAR3/retardware-main/main/Refinery-caves.lua"))()
+elseif GameId == 12196278347 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RETARDWAR3/retardware-main/main/Refinery-Caves-2.lua"))()
 elseif GameId == 17121106661 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RETARDWAR3/retardware-main/main/Scream-Stream.lua"))()
 elseif GameId == 16426795556 then
