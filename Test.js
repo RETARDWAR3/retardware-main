@@ -2,7 +2,7 @@ export const manifest = {
     name: "View Icons",
     description: "View server or user icons in full resolution.",
     version: "1.0.0",
-    authors: [{ name: "YourName", id: "YourDiscordID" }],
+    authors: [{ name: "Evil.EXE", id: "708704825201918012" }],
 };
 
 import { React } from "@vendetta/metro/common";
